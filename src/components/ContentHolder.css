@@ -1,18 +1,20 @@
 .b-main__content {
-  width: 100%;
+  width: 80%;
   top: 40px;
-  margin: 0 auto 0;
+  margin: 0 10% 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
 .content__button {
+  min-width: 140px;
+  cursor: pointer;
   text-align: center;
   display: block;
-  width: 386px;
+  width: 30%;
   height: 45px;
-  margin: 0 auto;
+  margin: 0 35%;
   background: #2c467f;
   line-height: 45px;
   font-family: Open Sans;

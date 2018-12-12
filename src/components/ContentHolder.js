@@ -41,6 +41,7 @@ class ContentHolder extends Component {
         {console.log(this.state.characters)}
         {this.state.characters.map((character, index) => (
           <CharacterIcon
+            onClick={() => this.props.handl(character)}
             className="content__character-icon"
             key={index}
             character={character}

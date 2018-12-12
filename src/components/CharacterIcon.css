@@ -1,9 +1,11 @@
 .content__character-icon {
+  min-width: 120px;
   padding: 0;
   margin: 10px;
-  width: 200px;
+  width: 30%;
   display: flex;
   flex-wrap: wrap;
+  cursor: pointer;
 }
 
 .character-icon__avatar {

@@ -4,7 +4,10 @@ import "./CharacterIcon.css";
 class CharacterIcon extends Component {
   render() {
     return (
-      <div className={this.props.className}>
+      <div
+        onClick={() => this.props.onClick()}
+        className={this.props.className}
+      >
         <img
           className="character-icon__avatar"
           src={this.props.character.image.medium_url}

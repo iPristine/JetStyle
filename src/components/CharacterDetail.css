@@ -1,0 +1,73 @@
+.b-main__character-detail {
+  margin: 10px 10% auto;
+}
+
+.character-detail__hero-info {
+  width: 60%;
+  margin-left: 10px;
+}
+
+.character-detail__img-wrapper {
+  min-width: 120px;
+  width: 30%;
+}
+
+.img-wrapper__img {
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+}
+
+.character-detail__close-btn {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.b-main__character-detail {
+  display: flex;
+}
+.hero-info__table {
+  margin-bottom: 10px;
+}
+
+.hero-info__name {
+  margin: 0;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  font-size: 48px;
+  letter-spacing: 0.05em;
+
+  color: #2c467f;
+}
+
+.table__type {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 14px;
+
+  color: #c1c4cc;
+}
+
+.table__value {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 14px;
+
+  color: #000000;
+}
+
+.hero-info__description {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 18px;
+
+  color: #000000;
+}
