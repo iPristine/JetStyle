@@ -1,0 +1,44 @@
+.content__character-icon {
+  padding: 0;
+  margin: 10px;
+  width: 200px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.character-icon__avatar {
+  object-fit: cover;
+  width: 100%;
+  height: 200px;
+}
+
+.character-icon__character-info {
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.character-info__name {
+  /* Name */
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  font-size: 18px;
+  letter-spacing: 0.05em;
+
+  color: #2c467f;
+}
+
+.character-info__issues {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 10px;
+  text-align: right;
+  letter-spacing: 0.05em;
+
+  color: #849acc;
+}
