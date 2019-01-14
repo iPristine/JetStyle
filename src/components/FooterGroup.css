@@ -1,19 +1,18 @@
 .b-main__footer {
   bottom: 0;
+  left: 0;
   width: 100%;
+  text-align: right;
 }
 
 .footer__text {
-  left: 70%;
-  right: 0%;
-
   font-family: Open Sans;
   font-style: normal;
   font-weight: normal;
   line-height: normal;
   font-size: 10px;
-  text-align: center;
   letter-spacing: 0.05em;
 
+  margin-right: 10%;
   color: #c1c4cc;
 }

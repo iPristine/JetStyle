@@ -1,11 +1,4 @@
 .content__character-icon {
-  min-width: 120px;
-  padding: 0;
-  margin: 10px;
-  width: 30%;
-  display: flex;
-  flex-wrap: wrap;
-  cursor: pointer;
 }
 
 .character-icon__avatar {
@@ -29,6 +22,7 @@
   line-height: normal;
   font-size: 18px;
   letter-spacing: 0.05em;
+  text-decoration: none;
 
   color: #2c467f;
 }
@@ -43,4 +37,13 @@
   letter-spacing: 0.05em;
 
   color: #849acc;
+}
+.character-info__publisher {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 10px;
+
+  color: #c1c4cc;
 }

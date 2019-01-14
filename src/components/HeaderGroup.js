@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./HeaderGroup.css";
 import logo from "./img/Logo.svg";
+import { Link } from "react-router-dom";
 
 class HeaderGroup extends Component {
   render() {
@@ -15,9 +16,9 @@ class HeaderGroup extends Component {
 class Logo extends Component {
   render() {
     return (
-      <div className={`${this.props.className}`}>
+      <Link to="/" className={`${this.props.className}`}>
         <img className="logo__img" src={logo} alt="site logo" />
-      </div>
+      </Link>
     );
   }
 }

@@ -4,7 +4,18 @@
   margin: 0 10% 0;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-between;
+}
+
+.content__character-icon-link {
+  min-width: 180px;
+  padding: 0;
+  margin: 10px 0;
+  width: 32%;
+  display: flex;
+  cursor: pointer;
+  flex-wrap: wrap;
+  text-decoration: none;
 }
 
 .content__button {
@@ -23,4 +34,13 @@
   font-size: 14px;
   letter-spacing: 0.05em;
   color: #ffffff;
+}
+
+@media (max-width: 690px) {
+  .b-main__content {
+    justify-content: center;
+  }
+  .content__character-icon-link {
+    margin: 10px;
+  }
 }
