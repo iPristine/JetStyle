@@ -62,6 +62,7 @@ class App extends Component {
                 path="/character_id/:id"
                 render={props => (
                   <CharacterDetail
+                    id={props.match.params.id}
                     character={this.state.characters.find(
                       c => c.id === Number(props.match.params.id)
                     )}
